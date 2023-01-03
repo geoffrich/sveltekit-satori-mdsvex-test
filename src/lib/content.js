@@ -7,11 +7,11 @@ export const load = async () => {
 
 > This is a quote
 
-\`\`\`bash
-npm install
-\`\`\`
+\`\`\`js
+console.log('hello world');
 
-foo bar baz
+'this  is from  indirect'
+\`\`\`
 `);
 	return {
 		content: transformed.code
