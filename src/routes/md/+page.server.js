@@ -7,9 +7,11 @@ export const load = async () => {
 
 > This is a quote
 
-\`\`\`js
-console.log('hello world');
+\`\`\`bash
+npm install
 \`\`\`
+
+foo bar baz
 `);
 	return {
 		content: transformed.code
